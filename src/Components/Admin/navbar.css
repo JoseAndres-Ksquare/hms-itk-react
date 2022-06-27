@@ -1,0 +1,40 @@
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  margin-left: 3px;
+  background-color: gray;
+}
+.table-container {
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+.container-allAppointments {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 1200px;
+  font-size: 20px;
+  padding: 30px;
+
+  margin-bottom: 10px;
+}
+.appointmentsTable {
+  background-color: #eeeeee;
+  width: 1200px;
+}
+
+.Title {
+  text-align: center;
+  color: #eeeeee;
+}

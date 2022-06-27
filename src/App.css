@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Signup-form {
   display: flex;
+  padding: 30px;
+  background-color: #2657b1b8;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  justify-items: right;
+  height: 350px;
+  width: 300px;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  border: 3px solid #eeeeee;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.signin-container {
+  display: flex;
+  margin-top: 10%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+label {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 22px;
+}
+.Signin-form {
+  display: flex;
+  padding: 30px;
+  background-color: #2657b1b8;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: right;
+  height: 350px;
+  width: 300px;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  border: 3px solid #eeeeee;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.submit {
+  align-self: center;
+  width: 80px;
+  font-size: 18px;
+  background-color: eeeeee;
+  color: black;
+  border: 2px solid #1f4690;
+  width: auto;
+}
+
+.submit:hover {
+  background-color: #008cba;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: auto;
 }
